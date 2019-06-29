@@ -50,11 +50,11 @@ aqui vem as instruções
 
 Na pasta **Loger-terminal** encontra-se o arquivo *loger.c* com todas as funções e estruturas de dados necessárias para desempenhar as funções anteriores, optou-se compactar todos os cabeçalhos no mesmo arquivo para facilitar a compilação em qualquer S.O.
 
-1. Execução pela IDE Codeblocks
+### 1. Execução pela IDE Codeblocks
 
 O programa Loger com interface de usuário pelo terminal foi consebido pela IDE CodeBlocks, logo foi testado e compilado pelo mesmo, a execução pelo Linux pode ser feito pelo terminal da seguinte maneira:
 
-2.Execução pelo Linux
+### 2. Execução pelo Linux
 
 Antes de compilar necessario instalar a biblioteca [Conoi](https://www.inf.pucrs.br/flash/lapro/conio/linux-conio.html)
 
