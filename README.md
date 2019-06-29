@@ -2,8 +2,7 @@
 Para a disciplina *Laboratório de Introdução à Ciência de Computação I (SSC0601)* ministrada na Universidade de São Paulo (USP), desenvolve-se o programa de gerenciamento de estoque (Loger) utilizando linguagem C e as bibliotecas padrões (math, string,stdlib,...), além da biblioteca GUI GTK (GIMPTOOLKIT - GNOME) juntamente com o software Glade - RAD.
 
 ## Relato de desenvolvimento
-No desenvolvimento do software de estoque procuramos implementar os principais tópicos da disciplina (SSC0601) visto em aula e como segue a ementa - *Resolução de problemas e desenvolvimento de programas: análise e solução de problemas, representação e documentação. Estruturas de programas: decisão e repetição. Tipos de dados simples. Modularização de programas: procedimentos, funções e passagem de parâmetros. Tipos de dados compostos: vetores, matrizes, cadeias de caracteres, registros, conjuntos e estruturas dinâmicas (ponteiros). Arquivos. Depuração de programas. Programação em linguagem estruturada.
- * - com isso, o programa é estruturado como mostrado na seção posterior.
+No desenvolvimento do software de estoque procuramos implementar os principais tópicos da disciplina (SSC0601) visto em aula e como segue a ementa - *Resolução de problemas e desenvolvimento de programas: análise e solução de problemas, representação e documentação. Estruturas de programas: decisão e repetição. Tipos de dados simples. Modularização de programas: procedimentos, funções e passagem de parâmetros. Tipos de dados compostos: vetores, matrizes, cadeias de caracteres, registros, conjuntos e estruturas dinâmicas (ponteiros). Arquivos. Depuração de programas. Programação em linguagem estruturada.* - com isso, o programa é estruturado como mostrado na seção posterior.
  
  ### Estrutura do Loger (Árvore de elementos)
 
@@ -46,6 +45,24 @@ Preço de venda do produto;
 
 10 - Sair do sistema: encerra a execução do programa.
 aqui vem as instruções
+
+## Compilação do Software sem GUI (Windows)
+
+Na pasta **Loger-terminal** encontra-se o arquivo *loger.c* com todas as funções e estruturas de dados necessárias para desempenhar as funções anteriores, optou-se compactar todos os cabeçalhos no mesmo arquivo para facilitar a compilação em qualquer S.O.
+
+1. Execução pela IDE Codeblocks
+
+O programa Loger com interface de usuário pelo terminal foi consebido pela IDE CodeBlocks, logo foi testado e compilado pelo mesmo, a execução pelo Linux pode ser feito pelo terminal da seguinte maneira:
+
+2.Execução pelo Linux
+
+Antes de compilar necessario instalar a biblioteca [Conoi](https://www.inf.pucrs.br/flash/lapro/conio/linux-conio.html)
+
+Na pasta **Loger-terminal** execute o terminal
+
+```bash
+  gcc loger.c -o loger.o
+```
 
 ## Compilação do Software com GUI (Linux)
 
