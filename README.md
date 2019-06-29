@@ -84,7 +84,7 @@ pronto! Agora é só executar o objeto
 
 
   
-  ### Interface Gráfica
+### Interface Gráfica
   Neste trabalho para avaliação na disciplina a implementação de interface gráfica é opcional, porém todos os demais grupos para esse trabalho decidiram de forma unânime fazer a UI (interface gráfica). A implementação da GUI é desafiante devido a complexidade de gerenciamento dos elementos visuais e eventos (ou sinais), como a disciplina (SSC0601) é ministrada em linguagem C - linguagem não estruturada a Programação Orientada a Objeto, e os alunos no período ideal estão no primeiro semestre do curso, culminou na complexidade em desenvolver janelas gráficas ao invés do próprio terminal com interface de interação com o usuário. 
 A biblioteca escolhida para a implementação de janelas gráficas foi a [GTK] (www.gtk.org) por ser nativo da linguagem C, outra opção encontrada foi Cython com [Qt] (https://www.qt.io/) (RAD - Rapid Application Development), porém essa segunda mostrou ruidosa devido a exportação do código C para python, dessa forma, desvinculando o back-end ( C ) do front-end ( Python ).
 A estratégia de desenvolvimento abordado pela equipe baseou-se em três etapas:
@@ -102,9 +102,9 @@ Com as pesquisas iniciais iniciadas e a estratégia traçada iniciou-se a execu�
 Com a duas primeiras etapas descritas na seção anterior foram executados conforme o previsto, porém a interface gráfica demandava mais experiência do que o esperado, o sistema click arraste do Glade é otimizado para rápida construção grosseira com refinamento em linguagem C; com tudo, o gerenciamento de eventos em uma biblioteca não nativamente orientada a objeto trouxe uma complexidade não prevista anteriormente, que apesar de conhecido os desafios gerados em implementar interface gráfica seja ela em qualquer linguagem, não conseguimos superar este desafio.
 
 
-##Conclusão
+## Conclusão
 Com exceção a interface gráfica todos os demais objetivos propostos na primeira fase do trabalho foram complidos conforme o previsto.
 
 
 ## Vídeo no Youtube - demonstração do software
-### [LINK] (https://youtu.be/_30wkfIUuRc)
+[LINK] (https://youtu.be/_30wkfIUuRc)
