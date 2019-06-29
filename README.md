@@ -107,4 +107,4 @@ Com exceção a interface gráfica todos os demais objetivos propostos na primei
 
 
 ## Vídeo no Youtube - demonstração do software
-[LINK] (https://youtu.be/_30wkfIUuRc)
+[LINK](https://youtu.be/_30wkfIUuRc)
